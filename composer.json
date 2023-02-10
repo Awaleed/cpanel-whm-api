@@ -1,5 +1,5 @@
 {
-    "name": "previewtechs/cpanel-whm-api",
+    "name": "myf/cpanel-whm-api",
     "description": "Manage WHM and cPanel servers with PHP",
     "type": "library",
     "license": "MIT",
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PreviewTechs\\cPanelWHM\\": "src"
+            "Myf\\cPanelWHM\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PreviewTechs\\cPanelWHM\\Tests\\": "tests"
+            "Myf\\cPanelWHM\\Tests\\": "tests"
         }
     },
     "require-dev": {
