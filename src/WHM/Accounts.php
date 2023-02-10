@@ -1,20 +1,20 @@
 <?php
 
-namespace PreviewTechs\cPanelWHM\WHM;
+namespace Numnut\cPanelWHM\WHM;
 
 use DateTime;
 use Http\Client\Exception;
-use PreviewTechs\cPanelWHM\Entity\Account;
-use PreviewTechs\cPanelWHM\Entity\Domain;
-use PreviewTechs\cPanelWHM\Entity\DomainUser;
-use PreviewTechs\cPanelWHM\Entity\SuspendedAccount;
-use PreviewTechs\cPanelWHM\Exceptions\ClientExceptions;
-use PreviewTechs\cPanelWHM\WHMClient;
+use Numnut\cPanelWHM\Entity\Account;
+use Numnut\cPanelWHM\Entity\Domain;
+use Numnut\cPanelWHM\Entity\DomainUser;
+use Numnut\cPanelWHM\Entity\SuspendedAccount;
+use Numnut\cPanelWHM\Exceptions\ClientExceptions;
+use Numnut\cPanelWHM\WHMClient;
 
 /**
  * Class Accounts
  *
- * @package PreviewTechs\cPanelWHM\WHM
+ * @package Numnut\cPanelWHM\WHM
  */
 class Accounts
 {
