@@ -1,5 +1,5 @@
 {
-    "name": "myf/cpanel-whm-api",
+    "name": "numnut/cpanel-whm-api",
     "description": "Manage WHM and cPanel servers with PHP",
     "type": "library",
     "license": "MIT",
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Myf\\cPanelWHM\\": "src"
+            "Numnut\\cPanelWHM\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Myf\\cPanelWHM\\Tests\\": "tests"
+            "Numnut\\cPanelWHM\\Tests\\": "tests"
         }
     },
     "require-dev": {
