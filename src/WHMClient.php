@@ -1,11 +1,11 @@
 <?php
 
-namespace PreviewTechs\cPanelWHM;
+namespace Numnut\cPanelWHM;
 
 use GuzzleHttp\Psr7\Request;
 use Http\Adapter\Guzzle6\Client;
 use Http\Client\HttpClient;
-use PreviewTechs\cPanelWHM\Exceptions\ClientExceptions;
+use Numnut\cPanelWHM\Exceptions\ClientExceptions;
 
 class WHMClient
 {
