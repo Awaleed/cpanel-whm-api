@@ -1,6 +1,6 @@
 <?php
 
-namespace PreviewTechs\cPanelWHM\Entity;
+namespace Numnut\cPanelWHM\Entity;
 
 
 class SuspendedAccount
