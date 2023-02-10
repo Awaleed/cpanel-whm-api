@@ -21,8 +21,8 @@ composer require previewtechs/cpanel-whm-api:dev-master
 require "vendor/autoload.php";
 
 //Build WHM Client
-use PreviewTechs\cPanelWHM\WHM\Accounts;
-use PreviewTechs\cPanelWHM\WHMClient;
+use Numnut\cPanelWHM\WHM\Accounts;
+use Numnut\cPanelWHM\WHMClient;
 
 require "vendor/autoload.php";
 $whmClient = new WHMClient("WHM_USERNAME","API_TOKEN", "yourwhmserver.com", 2087);
