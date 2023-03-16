@@ -897,7 +897,7 @@ class Accounts
      */
     public function remove($username, $keepDNS = false)
     {
-        $params = ['user' => $username, 'keepdns' => (int) $keepDNS];
+        $params = ['username' => $username, 'keepdns' => (int) $keepDNS];
         $result = $this->client->sendRequest("/json-api/removeacct", "GET", $params);
 
         if(!empty($result['metadata']) && $result['metadata']['result'] === 0){
