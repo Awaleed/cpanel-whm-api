@@ -12,9 +12,9 @@
     "require": {
         "php": ">=5.5",
         "ext-curl": "*",
-        "guzzlehttp/psr7": "^1.4",
+        "guzzlehttp/psr7": "*",
         "php-http/client-implementation": "*",
-        "php-http/guzzle6-adapter": "^2.0"
+        "php-http/guzzle6-adapter": "*"
     },
     "autoload": {
         "psr-4": {
